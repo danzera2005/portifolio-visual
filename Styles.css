@@ -1,0 +1,79 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+header{
+    background-color: aquamarine;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: auto;
+    height: 50px;
+    margin-left: 150px;
+}
+
+.conn{
+    width: 400px;
+    height: 400px;
+    
+    margin-left: 170px;
+    margin-top: 100px;
+    
+}
+
+button{
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    width: 200px;
+    height: 300px;
+    margin-left: 120%;
+    margin-top: -300px;
+}
+
+#imagem{
+    cursor: pointer;
+}
+
+.menu{
+    list-style:none;
+ 
+    float:left;
+    margin-left: 40%;
+    }
+
+    .menu li{
+        position:relative;
+        float:left;
+ 
+        }
+
+        .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
